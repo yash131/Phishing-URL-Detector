@@ -1,0 +1,42 @@
+# 🔐 Phishing URL Detection System
+
+A Machine Learning-based web application that detects whether a given URL is **phishing** or **legitimate** using feature extraction and trained models.
+
+---
+
+## 🚀 Project Overview
+
+This project is designed to enhance cybersecurity by identifying malicious URLs using machine learning techniques. It extracts multiple features from a URL and predicts whether it is safe or not.
+
+---
+
+## 🧠 Key Features
+
+- 🔍 URL Analysis using feature extraction  
+- 🤖 Machine Learning model for prediction  
+- 🌐 Web interface using Flask  
+- ⚡ Fast and real-time detection  
+- 📊 Uses PCA for dimensionality reduction  
+- 💾 Pre-trained model integration  
+
+---
+
+# 🛡️ Phishing URL Detector
+
+A Machine Learning tool to classify URLs as legitimate or phishing.
+
+## 🧰 Tech Stack
+
+Python · Scikit-learn · Pandas · NumPy  
+
+## ✨ Features
+
+- Feature engineering: URL length, special characters, domain age  
+- High-precision classification model  
+- Clean data pipeline from raw URLs to predictions  
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python detector.py
